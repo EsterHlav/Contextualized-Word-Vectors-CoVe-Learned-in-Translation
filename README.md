@@ -9,7 +9,7 @@ Replicate the training of CoVe embedding using **TensorFlow**  (the official imp
 
 ##### Download the data and launch raw files preprocessing to tokens (like .xml->.tok)
 
-This will take a while as it downloads and preprocess MT-L and MT-L. It also downloads [GLoVe](https://nlp.stanford.edu/pubs/glove.pdf) and [Char-emb kazuma](https://arxiv.org/abs/1611.01587).
+This will take a while as it downloads and preprocess MT-M and MT-L. It also downloads [GLoVe](https://nlp.stanford.edu/pubs/glove.pdf) and [Char-emb kazuma](https://arxiv.org/abs/1611.01587).
 ```{bash}
 sh ./download_and_preprocess_to_tokens.sh
 ```
